@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Product Form</title>
 	<link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
+
 <body>
 	<h1>Your AI</h1>
-	<form>
-		<label for="product-name">Product Name:</label>
-		<input type="text" id="product-name" name="product-name" required>
 
-		<label for="ingredients">Ingredients:</label>
-		<textarea id="ingredients" name="ingredients" rows="5" required></textarea>
-
-		<input type="submit" value="Submit" onclick="SubmitForm()">
+	<form id="url-form">
+		<label for="url-input">Enter URL:</label>
+		<input type="text" id="url-input" name="url">
+		<button type="submit">Get Data</button>
 	</form>
+	<div id="good-list"></div>
+	<div id="bad-list"></div>
+	<div id="note"></div>
+
 
 	<script src="static/script.js"></script>
 </body>
+
 </html>
