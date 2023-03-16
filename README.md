@@ -1,4 +1,4 @@
-# NutriGenieAI
+# OptiWise.AI (currently in a Testing phase)
 
 This project is designed to help consumers check the ingredient list of their products and identify any harmful substances that may be present. The ingredient list checker uses advanced algorithms and data analysis techniques to determine which ingredients are harmful and how they may impact your health.
 How to Use
@@ -9,7 +9,7 @@ The report will also provide recommendations on alternative products that do not
 
 # TO-DO
 - [x] make template
-- [ ] add test-cases if needed
+- [x] in testing phase
 - [ ] working website
-- [ ] chrome and firefox extension
-- [ ] Android app
+- [ ] Android app with tensorflow lite, to scan the text from the product
+- [ ] more.....
